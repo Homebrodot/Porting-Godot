@@ -8,6 +8,8 @@ Currently this is only centered around Godot 4. Godot 3 and prior are going to b
 Each readme in this repo will contain 3 sections: 
 * "What Godot Wants", detailing what Godot expects, on a general level, from your platform
 * "What MUST be implemented", detailing the bare bones functions (based on an already implemented class) Godot will need to use this feature.
+* "What Is Optional", which is some features you may see in the stock implemented platforms, but are not actually absolute musts per say.
+
 
 # Overview
 
