@@ -11,7 +11,7 @@ Each readme in this repo will contain 3 sections:
 * "What Is Optional", which is some features you may see in the stock implemented platforms, but are not actually absolute musts per say.
 
 
-# Overview
+# Introduction
 
 Godot gives a lot of freedom about how to port a platform to it. Generally speaking though, there are some core things that are critical to Godot functioning on that platform:
 * Threading: If your platform does not support the standard C library, or if some threading features in Godot (eg. priority) are not present without using a platform's API, you need to implement a custom thread class.
