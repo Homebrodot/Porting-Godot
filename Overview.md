@@ -16,7 +16,7 @@ Godot allows for a platform specific `main` function to be defined in the code o
 # What Godot Wants
 
 # What MUST Be Implemented
-* OS functions:
-* 
+* [A `detect.py` file for properly compiling the platform](https://docs.godotengine.org/en/stable/contributing/development/core_and_modules/custom_platform_ports.html#required-features-of-a-platform-port)
+
 # What Is Optional
 
