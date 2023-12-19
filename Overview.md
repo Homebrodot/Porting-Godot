@@ -17,6 +17,7 @@ Godot allows for a platform specific `main` function to be defined in the code o
 
 # What MUST Be Implemented
 * [A `detect.py` file for properly compiling the platform](https://docs.godotengine.org/en/stable/contributing/development/core_and_modules/custom_platform_ports.html#required-features-of-a-platform-port)
+* Thread handling. This is a must, because Godot runs its servers on seperate threads.
 
 # What Is Optional
 
