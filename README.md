@@ -5,10 +5,11 @@ The Godot official docs are extremely vague on how to create a fully fleshed out
 
 Currently this is only centered around Godot 4. Godot 3 and prior are going to be distinctly different in their porting insofar as graphics are concerned, and I have not personally ported Godot 3 and prior to any platform, only Godot 4. 
 
-Each readme in this repo will contain 3 sections: 
-* "What Godot Wants", detailing what Godot expects, on a general level, from your platform
-* "What MUST be implemented", detailing the bare bones functions (based on an already implemented class) Godot will need to use this feature.
-* "What Is Optional", which is some features you may see in the stock implemented platforms, but are not actually absolute musts per say.
+Each readme in this repo will contain 4 sections: 
+* "Overview", which is, as the title suggests, an overview of the feature's implementation in Godot. 
+* "What Godot Wants", detailing what Godot expects, on a general level, from your platform.
+* "What MUST be implemented", detailing the bare bones functions and/or functionality (based on an already implemented class) Godot will need to use this feature.
+* "What Is Optional", which is some features you *may* see in the stock implemented platforms, but are not actually absolute musts per say.
 
 
 # Introduction
