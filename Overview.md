@@ -15,8 +15,6 @@ If your platform does not support the standard C library, or if the use of a pla
 
 Godot allows for a platform specific `main` function to be defined in the code of the platform. This is where you will want to initialize any platform-specific libraries, set any special modes, and other "setup" things for your platform, as if you were making a standard native app for that platform (which, you kind of are).
 
-# What Godot Wants
-
 # What MUST Be Implemented
 * [A `detect.py` file for properly compiling the platform](https://docs.godotengine.org/en/stable/contributing/development/core_and_modules/custom_platform_ports.html#required-features-of-a-platform-port)
 * Platform guideline adherent thread handling. This is a must, because Godot runs its various servers on multiple threads.
