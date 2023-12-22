@@ -1,6 +1,6 @@
 # Overview
 
-The OS singleton is essentially Godot's translator into your platform's low level features. It's used for everything from setting up a main loop, to getting the tick offset, to displaying errors, etc. Compared to some other features to implement, implementing an OS singleton class is very rigid, with a lot of specific functions expected by the engine.
+The OS singleton is essentially Godot's translator into your platform's low level features. It's used for everything from setting up a main loop, to getting the tick offset, to displaying errors, etc. Compared to some other features to implement, implementing an OS singleton class is very rigid, with a lot of specific functions expected by the engine. Luckily, a decent chunk of those functions are only relevant within the engine's code, as in they do not need to be redefined in an OS derived class for a platform. 
 
 # What MUST Be Implemented
 Public functions: 
