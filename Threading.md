@@ -8,4 +8,8 @@ For the Thread class, there's several points of interest. Looking at the source 
 
 # What MUST Be Implemented
 
+* The public functions:
+  * `make_main_thread()`
+  * `release_main_thread()`
+
 # What Is Optional
