@@ -11,7 +11,7 @@ Each readme in this repo will contain 4 sections:
 * "What MUST be implemented", detailing the bare bones functions and/or functionality (based on an already implemented class) Godot will need to use this feature.
 * "What Is Optional", which is some features you *may* see in the stock implemented platforms, but are not actually absolute musts per say.
 
-This guide will assume that the porter is not looking to heavily modify the core features of the game engine in order to port to their target platform. Technically speaking, if someone so chooses, they *could* modify any core aspect of the game engine to get Godot running pretty much anywhere, with enough effort. However, that would be an extremely large undertaking, and would heavily convolute this guide, so it will not be covered. So, assume a "vanilla" port is being achieved.
+This guide will assume that the porter is not looking to heavily modify the core aspects of the game engine in order to port to their target platform. Technically speaking, if someone so chooses, they *could* modify any core aspect of the game engine to get Godot running pretty much anywhere, with enough effort. However, that would be an extremely large undertaking, and would heavily convolute this guide, so it will not be covered. So, assume a "vanilla" port is the goal.
 
 # Introduction
 
