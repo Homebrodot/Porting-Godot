@@ -13,8 +13,4 @@ Each readme in this repo will contain 4 sections:
 
 This guide will assume that the porter is not looking to heavily modify the core aspects of the game engine in order to port to their target platform. Technically speaking, if someone so chooses, they *could* modify any core aspect of the game engine to get Godot running pretty much anywhere, with enough effort. However, that would be an extremely large undertaking, and would heavily convolute this guide, so it will not be covered. So, assume a "vanilla" port is the goal.
 
-# Introduction
 
-Godot gives a lot of freedom about how to port a platform to it. Generally speaking though, there are some core things that are critical to Godot functioning on that platform:
-* Threading: If your platform does not support the standard C library, or if some threading features in Godot (eg. priority) are not present without using a platform's API, you need to implement a custom thread class.
-* A "main" function in a file of your choice: Basically what you'd expect a `main` function to do; set the bones up so the skeleton can dance. More on that later.
