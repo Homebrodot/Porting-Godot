@@ -1,4 +1,7 @@
 # Porting-Godot
+
+## Note: This repo is depreciated, and further development on these docs has moved to the [`Homebrodot Godot Wiki`](https://github.com/Homebrodot/Godot/wiki)
+
 Documentation on how SPECIFICALLY to port Godot to a platform.
 
 The Godot official docs are extremely vague on how to create a fully fleshed out port of Godot, so we have created this to aid devs looking to port Godot (4) to a given platform.
